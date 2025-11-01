@@ -3,6 +3,7 @@ import string
 
 import tiktoken
 from loguru import logger
+import openai
 
 
 def generate_random_hex(length: int) -> str:
