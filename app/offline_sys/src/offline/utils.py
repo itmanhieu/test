@@ -37,3 +37,4 @@ def clip_tokens(text: str, max_tokens: int, model_id: str) -> str:
         return text
 
     return encoding.decode(tokens[:max_tokens])
+import time
